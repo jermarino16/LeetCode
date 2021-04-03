@@ -7,40 +7,10 @@
  */
 
 function validParentheses(s) {
-    let stack = [];
-
-    stack.push(s[0]);
-    let stackSize = 1;
-
-    for (let i = 1; i < s.length; i++) {
-        if (s[i] == ')') {
-            if (stack[stackSize - 1] == '(') {
-                stack.pop();
-                stackSize--;
-            } else {
-                return false;
-            }
-        } else if (s[i] == '}') {
-            if (stack[stackSize - 1] == '{') {
-                stack.pop();
-                stackSize--;
-            } else {
-                return false;
-            }
-        } else if (s[i] == ']') {
-            if (stack[stackSize - 1] == '[') {
-                stack.pop();
-                stackSize--;
-            } else {
-                return false;
-            }
-        } else {
-            stack.push(s[i]);
-            stackSize++;
-        }
+    while (s.includes("()") || s.includes("[]") || s.includes("{}")) {
+        s = s.replace("()", "").replace("{}", "").replace("[]", "");
     }
-
-    return stack.length === 0;
+    return s === "";
 }
 
 module.exports = validParentheses;
