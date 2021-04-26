@@ -1,4 +1,4 @@
-const mostCommonWord = require("../../CodingChallenges/Strings/mostCommonWord");
+const mostCommonWord = require("../../CodingChallenges_Javascript/Strings/mostCommonWord");
 
 test("hey there how you doing hey hey, returns hey", () => {
     expect(mostCommonWord("hey there how you doing hey hey", ['there', 'how'])).toBe('hey');

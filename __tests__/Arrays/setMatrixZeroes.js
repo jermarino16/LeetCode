@@ -1,4 +1,4 @@
-const setMatrixZeroes = require("../../CodingChallenges/Arrays/setMatrixZeroes");
+const setMatrixZeroes = require("../../CodingChallenges_Javascript/Arrays/setMatrixZeroes");
 
 test("Set toZeroes [[1,1,1],[1,0,1],[1,1,1]]", () => {
     expect(setMatrixZeroes([[1, 1, 1], [1, 0, 1], [1, 1, 1]])).toStrictEqual([[1, 0, 1], [0, 0, 0], [1, 0, 1]]);

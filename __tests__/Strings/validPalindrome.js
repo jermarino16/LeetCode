@@ -1,4 +1,4 @@
-const validPalindrome = require("../../CodingChallenges/Strings/validPalindrome");
+const validPalindrome = require("../../CodingChallenges_Javascript/Strings/validPalindrome");
 
 test("racecar is a valid palindrome", () => {
     expect(validPalindrome("racecar")).toBe(true);

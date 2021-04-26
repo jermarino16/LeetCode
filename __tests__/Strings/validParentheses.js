@@ -1,4 +1,4 @@
-const validParentheses = require("../../CodingChallenges/Strings/validParentheses");
+const validParentheses = require("../../CodingChallenges_Javascript/Strings/validParentheses");
 
 test("'(){}[]' is valid", () => {
     expect(validParentheses("(){}[]")).toBe(true);

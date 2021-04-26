@@ -1,4 +1,4 @@
-const findMinimumInRotatedSortedArray = require("../../CodingChallenges/Arrays/findMinimumInRotatedSortedArray");
+const findMinimumInRotatedSortedArray = require("../../CodingChallenges_Javascript/Arrays/findMinimumInRotatedSortedArray");
 
 test("[3,4,5,1,2] returns 1", () => {
     expect(findMinimumInRotatedSortedArray([3,4,5,1,2])).toStrictEqual(1);

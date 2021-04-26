@@ -1,4 +1,4 @@
-const firstUniqueCharacterInString = require("../../CodingChallenges/Strings/firstUniqueCharacterInString");
+const firstUniqueCharacterInString = require("../../CodingChallenges_Javascript/Strings/firstUniqueCharacterInString");
 
 test("abcdefg returns 0", () => {
     expect(firstUniqueCharacterInString("abcdefg")).toBe(0);

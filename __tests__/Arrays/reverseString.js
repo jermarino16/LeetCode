@@ -1,4 +1,4 @@
-const reverseString = require("../../CodingChallenges/Arrays/reverseString");
+const reverseString = require("../../CodingChallenges_Javascript/Arrays/reverseString");
 
 test("Reverse ['a','b','c']", () => {
     expect(reverseString(['a', 'b', 'c'])).toStrictEqual(['c','b','a']);

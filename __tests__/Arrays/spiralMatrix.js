@@ -1,4 +1,4 @@
-const spiralMatrix = require("../../CodingChallenges/Arrays/spiralMatrix");
+const spiralMatrix = require("../../CodingChallenges_Javascript/Arrays/spiralMatrix");
 
 test("SpiralMatrix [[1,2,3],[4,5,6],[7,8,9]]", () => {
     expect(spiralMatrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])).toStrictEqual([1, 2, 3, 6, 9, 8, 7, 4, 5]);

@@ -1,4 +1,4 @@
-const twoSum = require("../../CodingChallenges/Arrays/twoSum");
+const twoSum = require("../../CodingChallenges_Javascript/Arrays/twoSum");
 
 test("Indices 0,1 add up to target.", () => {
     expect(twoSum([1, 4, 6, 7, 9], 5)).toStrictEqual([0, 1]);
